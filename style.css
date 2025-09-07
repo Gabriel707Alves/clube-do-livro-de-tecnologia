@@ -104,6 +104,8 @@
 header{
     padding: var(--spacing-200);
     z-index: 1000;
+    position: sticky;
+    top: 0px;
     
     img{
         width: 100%;
