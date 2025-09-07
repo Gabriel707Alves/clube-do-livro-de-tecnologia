@@ -98,3 +98,14 @@
         --radius-24: 24px;
         --radius-full: 999px;
 }
+
+
+/* Header */
+header{
+    padding: var(--spacing-200);
+    z-index: 1000;
+    
+    img{
+        width: 100%;
+    }
+}
