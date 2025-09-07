@@ -28,4 +28,41 @@
     /* Fonts */
         --martian-mono: "Martian Mono", sans-serif;
         --inter: "Inter", sans-serif;
+        --letter-spacing1: -2px;
+        --letter-spacing2: -1px;
+        --letter-spacing3: -0.5px;
+
+        /* Text preset 1 */
+        --text-preset1: 700 62px/1.2 var(--martian-mono);
+        --text-preset1-mobile: 700 38px/1.2 var(--martian-mono); 
+        --letter-spacing1: -2px;
+        
+        /* Text preset 2 */
+        --text-preset2: 600 50px/1.3 var(--martian-mono);
+        --text-preset2-mobile: 600 34px/1.3 var(--martian-mono);
+        --letter-spacing1: -2px;
+
+        /* Text preset 3 */
+        --text-preset3: 600 34px/1.3 var(--martian-mono);
+        --text-preset3-mobile: 600 24px/1.1 var(--martian-mono);
+        --letter-spacing2: -1px;
+
+        /* Text-preset 4 */
+        --text-preset4: 600 24px/1.1 var(--martian-mono);
+        --text-preset4-regular: 400 24px/1.1 var(--martian-mono);
+        --letter-spacing2: -1px;
+
+        /* Text preset 5 */
+        --text-preset5: 400 20px/1.4 var(--inter);
+        --text-preset5-semibold: 600 20px/1.4 var(--inter);
+        --letter-spacing3: -0.5px;
+
+        /* Text preset 6 */
+        --text-preset6: 600 18px/ 1.3 var(--martian-mono);
+        --text-preset6-mobile: 600 16px/ 1.3 var(--martian-mono);
+        --letter-spacing2: -1px;
+
+        /* Text preset 7 */
+        --text-preset7: 400 14px/ 1.2 var(--martian-mono);
+        --letter-spacing2: -1px;
 }
