@@ -4,3 +4,28 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap');
+
+:root{
+    /* colors */
+        /* Neutral */
+        --neutral_900: #062630;
+        --neutral_700: #385159;
+        --neutral_200: #e6e1df;
+        --neutral_100: #faf5f3;
+        --neutral_0: #ffffff;
+
+        /* Ligth Salmon */
+        --light-salmon_500: #fea36f;
+        --light-salmon_100:#ffd2d1;
+        --light-salmon_50: #fff5ef;
+        
+        /* Gradient */
+        --text-gradient: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
+        --gradient: linear-gradient(90deg, #ffe2d1 0%, #fff5ef 100%);
+    /* Fim Colors*/
+
+    /* Fonts */
+        --martian-mono: "Martian Mono", sans-serif;
+        --inter: "Inter", sans-serif;
+}
