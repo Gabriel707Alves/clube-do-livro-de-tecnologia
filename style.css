@@ -65,4 +65,23 @@
         /* Text preset 7 */
         --text-preset7: 400 14px/ 1.2 var(--martian-mono);
         --letter-spacing2: -1px;
+
+    /* Fim Fonts */
+
+    /* Spacing */
+        --spacing0: 0px;
+        --spacing025: 2px;
+        --spacing050: 4px;
+        --spacing075: 6px;
+        --spacing100: 8px;
+        --spacing150: 12px;
+        --spacing175: 16px;
+        --spacing200: 20px;
+        --spacing250: 24px;
+        --spacing300: 28px;
+        --spacing400: 32px;
+        --spacing500: 40px;
+        --spacing600: 48px;
+        --spacing800: 64px;
+        --spacing1000: 80px;
 }
