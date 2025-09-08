@@ -106,8 +106,23 @@ header{
     z-index: 1000;
     position: sticky;
     top: 0px;
+
     
-    img{
+}
+
+.hero{
+    padding: var(--spacing-200);
+
+
+    .image{
+        width: 100%;
+    }
+}
+
+.read-together{
+    padding: var(--spacing-200);
+
+    .image{
         width: 100%;
     }
 }
