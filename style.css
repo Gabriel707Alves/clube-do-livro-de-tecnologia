@@ -8,6 +8,7 @@
 
 :root{
     /* colors */
+    --transparent: #ffffff00;
         /* Neutral */
         --neutral_900: #062630;
         --neutral_700: #385159;
@@ -103,17 +104,14 @@
 /* Header */
 header{
     padding: var(--spacing-200);
-    z-index: 1000;
-    position: sticky;
-    top: 0px;
-
-    
+    background-image: url(assets/images/pattern-light-bg.svg);
+    background-color: var(--neutral_100);
 }
 
 .hero{
     padding: var(--spacing-200);
-
-
+    background-image: url(assets/images/pattern-light-bg.svg);
+    background-color: var(--neutral_100);
     .image{
         width: 100%;
     }
