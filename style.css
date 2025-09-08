@@ -112,9 +112,20 @@ header{
     padding: var(--spacing-200);
     background-image: url(assets/images/pattern-light-bg.svg);
     background-color: var(--neutral_100);
+
+
+    h1{
+        font: var(--text-preset1-mobile);
+        background: var(--text-gradient);
+        background-clip: text;
+        color: transparent;
+    }
+
     .image{
         width: 100%;
     }
+
+
 }
 
 .read-together{
