@@ -113,19 +113,48 @@ header{
     background-image: url(assets/images/pattern-light-bg.svg);
     background-color: var(--neutral_100);
 
+    .hero_texts{
+        h1{
+            font: var(--text-preset1-mobile);
+            background: var(--text-gradient);
+            background-clip: text;
+            color: transparent;
+            letter-spacing: var(--letter-spacing1);
+        }
 
-    h1{
-        font: var(--text-preset1-mobile);
-        background: var(--text-gradient);
-        background-clip: text;
-        color: transparent;
+        p{
+            font: var(--text-preset5);
+            margin: var(--spacing-300) 0px 0px 0px;
+            letter-spacing: var(--letter-spacing3);
+        }
+
     }
+    
+    .cta-container{
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            text-decoration: none;
+            padding: var(--spacing-200) var(--spacing-250);
+            border: 2px solid var(--neutral_900);
+            border-radius: var(--radius-8);
+            margin: var(--spacing-400) 0px var(--spacing-200) 0px;
+
+            background-color: var(--light-salmon_50);
+            color: var(--neutral_900);
+            font: var(--text-preset6-mobile);
+            letter-spacing: var(--letter-spacing1);
+        }
+    }
+
+
 
     .image{
         width: 100%;
     }
-
-
 }
 
 .read-together{
