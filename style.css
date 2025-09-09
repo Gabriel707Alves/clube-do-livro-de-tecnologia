@@ -188,7 +188,31 @@ header{
 .read-together{
     padding: var(--spacing-200);
 
+
+    .text-container{
+        h2{
+            margin: var(--spacing-800) 0px var(--spacing-250) 0px;
+            font: var(--text-preset2-mobile);
+        }
+        
+        .features-list{
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-175);
+            list-style: none;
+
+            .feature-item{
+                display: flex;
+                gap: var(--spacing-150);
+                font: var(--text-preset5);
+                color: var(--neutral_700);
+            }
+        }
+    }
+
     .image{
         width: 100%;
+        border-radius: var(--radius-12);
+        margin: var(--spacing-500) 0px 0px 0px;
     }
 }
