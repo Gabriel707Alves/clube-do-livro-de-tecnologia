@@ -185,9 +185,10 @@ header{
     }
 }
 
+/* Sessão de Read-together */
 .read-together{
     padding: var(--spacing-200);
-    
+
     .text-container{
         h2{
             margin: var(--spacing-800) 0px var(--spacing-250) 0px;
@@ -213,5 +214,45 @@ header{
         width: 100%;
         border-radius: var(--radius-12);
         margin: var(--spacing-500) 0px 0px 0px;
+    }
+}
+
+/* Sessão de Not Avarege Book Club */
+.avarege-book-club{
+    padding: var(--spacing-200);
+
+    .text-container{
+        h2{
+            font: var(--text-preset2-mobile);
+            margin: 0px 0px var(--spacing-250) 0px;
+            width: 100%;
+            span{
+                position: relative;
+                left: -126px;
+                top: 8px;
+                
+                img{
+                    width: 115px;
+                }
+            }
+        }
+
+        p{
+            font: var(--text-preset5);
+        }
+
+        strong{
+            font: var(--text-preset5-semibold);
+        }
+    }
+
+    .tech-logos{
+        display: none;
+    }
+
+    .image{
+        width: 100%;
+        border-radius: var(--radius-12);
+        margin: var(--spacing-500) 0px var(--spacing-800) 0px;
     }
 }
