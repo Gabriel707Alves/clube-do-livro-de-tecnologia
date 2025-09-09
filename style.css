@@ -187,8 +187,7 @@ header{
 
 .read-together{
     padding: var(--spacing-200);
-
-
+    
     .text-container{
         h2{
             margin: var(--spacing-800) 0px var(--spacing-250) 0px;
