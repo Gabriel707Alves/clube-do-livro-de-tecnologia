@@ -375,10 +375,14 @@ header{
     }
   }
 
-  /* Acha esse nível para clareza */
+  
   .features-item {
     font: var(--text-preset5);
     display: flex;
     gap: var(--spacing-150);
+
+    &:nth-child(2){
+        margin: var(--spacing-175) 0 0 0;
+    }
   }
 }
