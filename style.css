@@ -313,3 +313,72 @@ header{
         }
     }
 }
+
+/* Membership Options */
+.membership-option {
+  padding: var(--spacing-200);
+
+  h2 {
+    font: var(--text-preset2-mobile);
+    color: var(--neutral_900);
+  }
+
+  .member_pro_styles {
+    background-color: var(--neutral_100);
+    background-image: url(assets/images/pattern-glow.svg);
+  }
+
+  .option-card {
+    padding: var(--spacing-250);
+    margin-top: var(--spacing-250);
+    border: 1px solid var(--neutral_200);
+    border-radius: var(--spacing-100);
+
+    .button-membership {
+      display: block;
+      padding: var(--spacing-200) var(--spacing-250);
+      margin-top: var(--spacing-400);
+      text-align: center;
+      border: 2px solid var(--neutral_900);
+      border-radius: var(--radius-8);
+      text-decoration: none;
+      color: var(--neutral_900);
+      font: var(--text-preset6-mobile);
+      background-color: var(--light-salmon_50);
+    }
+
+    .price-container {
+      margin: var(--spacing-250) 0;
+
+      .price {
+        font: var(--text-preset3);
+        color: var(--neutral_900);
+      }
+
+      .price-duration {
+        font: var(--text-preset5);
+        color: var(--neutral_700);
+      }
+    }
+
+    .options-details {
+      h3 {
+        font: var(--text-preset4);
+        color: var(--neutral_900);
+      }
+
+      hr {
+        margin-bottom: var(--spacing-250);
+        border: none;
+        border-top: 1px solid var(--neutral_200);
+      }
+    }
+  }
+
+  /* Acha esse nível para clareza */
+  .features-item {
+    font: var(--text-preset5);
+    display: flex;
+    gap: var(--spacing-150);
+  }
+}
