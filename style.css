@@ -316,7 +316,7 @@ header{
 
 /* Membership Options */
 .membership-option {
-  padding: var(--spacing-200);
+  padding: var(--spacing-200) var(--spacing-200) 0 var(--spacing-200) ;
 
   h2 {
     font: var(--text-preset2-mobile);
@@ -385,4 +385,32 @@ header{
         margin: var(--spacing-175) 0 0 0;
     }
   }
+}
+
+
+/* Testimonials */
+.testimonial{
+    padding: 0 var(--spacing-200) ;
+    margin: var(--spacing-800) 0 var(--spacing-800) 0;
+}
+
+.rating-container{
+    margin: 0 0 var(--spacing-400) 0;
+
+    img{
+        width: 9%;
+    } 
+}
+
+.testimonial-content{
+    h3{
+        font: var(--text-preset3-mobile); 
+        color: var(--neutral_900);  
+    }
+
+    p{
+        font: var(--text-preset5);
+        color: var(--neutral_700);
+        margin: var(--spacing-400) 0 0 0;
+    }
 }
