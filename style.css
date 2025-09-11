@@ -193,23 +193,29 @@ header{
 }
 
 
-/* Sessão de Read-together */
-.read-together{
+/* ======================
+   Sessão de Read-together
+====================== */
+.read-together {
     padding: var(--spacing-200);
 
-    .text-container{
-        h2{
-            margin: var(--spacing-800) 0px var(--spacing-250) 0px;
+    /* ----------------------
+       Textos da sessão
+    ---------------------- */
+    .text-container {
+        > h2 {
+            margin: var(--spacing-800) 0 var(--spacing-250);
             font: var(--text-preset2-mobile);
         }
         
-        .features-list{
+        /* Lista de features */
+        .features-list {
             display: flex;
             flex-direction: column;
             gap: var(--spacing-175);
             list-style: none;
 
-            .feature-item{
+            .feature-item {
                 display: flex;
                 gap: var(--spacing-150);
                 font: var(--text-preset5);
@@ -218,10 +224,13 @@ header{
         }
     }
 
-    .image{
+    /* ----------------------
+       Imagem da sessão
+    ---------------------- */
+    .image {
         width: 100%;
         border-radius: var(--radius-12);
-        margin: var(--spacing-500) 0px 0px 0px;
+        margin: var(--spacing-500) 0 0;
     }
 }
 
