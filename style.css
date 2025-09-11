@@ -109,14 +109,16 @@ header{
 }
 
 /* Hero section */
-.hero{
+.hero {
     padding: var(--spacing-200);
     background-image: url(assets/images/pattern-light-bg.svg);
     background-color: var(--neutral_100);
 
-    /* Textos principais da hero */
-    .hero_texts{
-        h1{
+    /* ======================
+       Textos principais
+    ====================== */
+    .hero_texts {
+        > h1 {
             font: var(--text-preset1-mobile);
             background: var(--text-gradient);
             background-clip: text;
@@ -124,17 +126,18 @@ header{
             letter-spacing: var(--letter-spacing1);
         }
 
-        p{
+        > p {
             font: var(--text-preset5);
-            margin: var(--spacing-300) 0px 0px 0px;
+            margin: var(--spacing-300) 0 0;
             letter-spacing: var(--letter-spacing3);
         }
-
     }
     
-    .cta-container{
-        /* Botão CTA da hero */
-        a{
+    /* ======================
+       Botão CTA
+    ====================== */
+    .cta-container {
+        a {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -144,7 +147,7 @@ header{
             padding: var(--spacing-200) var(--spacing-250);
             border: 2px solid var(--neutral_900);
             border-radius: var(--radius-8);
-            margin: var(--spacing-400) 0px var(--spacing-200) 0px;
+            margin: var(--spacing-400) 0 var(--spacing-200);
 
             background-color: var(--light-salmon_50);
             color: var(--neutral_900);
@@ -152,20 +155,22 @@ header{
             letter-spacing: var(--letter-spacing1);
         }
 
-        /* Depoimentos e Avaliações */
-        .testimonials-container{
+        /* ======================
+           Depoimentos e Avaliações
+        ====================== */
+        .testimonials-container {
             display: grid;
             grid-template-columns: 1fr 2fr;
             align-items: center;
 
-            .testimonials-image{
+            .testimonials-image {
                 width: 100%;
             }
 
-            .rating-container{
-                margin: 0px 0px 0px var(--spacing-150);
+            .rating-container {
+                margin: 0 0 0 var(--spacing-150);
 
-                p{
+                > p {
                     font: var(--text-preset7);
                     letter-spacing: var(--letter-spacing2);
                     color: var(--neutral_700);
@@ -174,16 +179,19 @@ header{
         }
     }
 
-
-    > img{
+    /* ======================
+       Imagens
+    ====================== */
+    > img {
         border-radius: var(--radius-4);
     }
     
-    .image{
+    .image {
         width: 100%;
-        margin: var(--spacing-800) 0px var(--spacing-1000) 0px;
+        margin: var(--spacing-800) 0 var(--spacing-1000);
     }
 }
+
 
 /* Sessão de Read-together */
 .read-together{
