@@ -234,45 +234,58 @@ header{
     }
 }
 
-/* Sessão de Not Avarege Book Club */
-.avarege-book-club{
+/* ======================
+   Sessão de Not Avarege Book Club
+====================== */
+.avarege-book-club {
     padding: var(--spacing-200);
 
-    .text-container{
-        h2{
+    /* ----------------------
+       Textos da sessão
+    ---------------------- */
+    .text-container {
+        > h2 {
             font: var(--text-preset2-mobile);
-            margin: 0px 0px var(--spacing-250) 0px;
+            margin: 0 0 var(--spacing-250);
             width: 100%;
-            span{
+
+            > span {
                 position: relative;
                 left: -126px;
                 top: 8px;
                 
-                img{
+                > img {
                     width: 115px;
                 }
             }
         }
 
-        p{
+        > p {
             font: var(--text-preset5);
         }
 
-        strong{
+        > strong {
             font: var(--text-preset5-semibold);
         }
     }
 
-    .tech-logos{
+    /* ----------------------
+       Logos (escondidos no momento)
+    ---------------------- */
+    .tech-logos {
         display: none;
     }
 
-    .image{
+    /* ----------------------
+       Imagem da sessão
+    ---------------------- */
+    .image {
         width: 100%;
         border-radius: var(--radius-12);
-        margin: var(--spacing-500) 0px var(--spacing-800) 0px;
+        margin: var(--spacing-500) 0 var(--spacing-800);
     }
 }
+
 
 
 /* Sessão de Reading-Journey */
