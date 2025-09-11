@@ -559,3 +559,42 @@ footer {
         color: var(--neutral_0);
     }
 }
+
+/* ==========================
+   Responsividade tablet vertical 768px  
+======================== */
+@media (min-width: 768px){
+    /* Hero section */
+    .hero, header{
+        padding: var(--spacing-400);
+        
+
+        /*=====================
+            Textos principais
+        ====================== */
+        .hero_texts{
+            > h1{
+                font: var(--text-preset1);
+            }
+
+            > p{
+            font: var(--text-preset5);
+            margin: var(--spacing-300) 0px 0px 0px;
+            letter-spacing: var(--letter-spacing3);
+            }
+        }
+
+        /* ======================
+            Botão CTA
+        ====================== */
+        .cta-container{
+            a{
+                width: 50%;
+                font: var(--text-preset6);
+            }
+        }
+
+    }
+    
+
+}
