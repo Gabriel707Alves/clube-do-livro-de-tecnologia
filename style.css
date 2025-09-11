@@ -288,21 +288,29 @@ header{
 
 
 
-/* Sessão de Reading-Journey */
-.reading-journey{
+/* ======================
+   Sessão de Reading-Journey
+====================== */
+.reading-journey {
     padding: var(--spacing-800) var(--spacing-200);
     background-image: url(assets/images/pattern-light-bg.svg);
     background-color: var(--neutral_100);
-    margin: 0px var(--spacing-200) var(--spacing-800) var(--spacing-200);
+    margin: 0 var(--spacing-200) var(--spacing-800);
     border-radius: var(--radius-12);
     overflow: hidden;
     position: relative;
 
-    h2{
+    /* ----------------------
+       Título
+    ---------------------- */
+    > h2 {
         font: var(--text-preset2-mobile);
     }
 
-    img{  
+    /* ----------------------
+       Imagem de fundo
+    ---------------------- */
+    > img {  
         position: absolute;
         bottom: -180px;
         right: -190px;
@@ -310,21 +318,24 @@ header{
         opacity: 0.8;
     }
 
-    .step-container{
+    /* ----------------------
+       Etapas (steps)
+    ---------------------- */
+    .step-container {
         display: flex;
         flex-direction: column;
         gap: var(--spacing-400);
         
-        &:nth-child(2){
-            margin: var(--spacing-400) 0px 0px 0px;
+        &:nth-child(2) {
+            margin: var(--spacing-400) 0 0;
         }
 
-        .step{
+        .step {
             display: flex;
             flex-direction: column;
             gap: var(--spacing-200);
 
-            .step_number_container{
+            .step_number_container {
                 font: var(--text-preset6-mobile);
                 color: var(--neutral_900);
                 border: var(--spacing-025) solid var(--neutral_900);
@@ -336,13 +347,14 @@ header{
                 border-radius: var(--spacing-050);
             }
 
-            p{
+            > p {
                 font: var(--text-preset6-mobile);
                 color: var(--neutral_900);
             }
         }
     }
 }
+
 
 /* Membership Options */
 .membership-option {
