@@ -437,16 +437,20 @@ footer{
 .footer-cta{
     a{
         display: flex;
-        justify-self: center;
+        align-items: center;
+        justify-content: center;
         gap: var(--spacing-175);
+        
         text-decoration: none;
         color: var(--neutral_0);
         font: var(--text-preset6-mobile);
-        padding: var(--spacing-200) var(--spacing-250);
         letter-spacing: var(--letter-spacing1);
+
         border: 2px solid var(--neutral_0);
         border-radius: var(--spacing-100);
+        padding: var(--spacing-200) var(--spacing-250);
         margin-top: var(--spacing-500);
+        width: 100%;
     }
 }
 
@@ -454,19 +458,44 @@ footer{
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-
+    margin-top: var(--spacing-250);
+    
     .testimonials-image{
         width: 100%;
     }
 
     
 }
-.rating-container{
-        margin: 0px 0px 0px var(--spacing-150);
 
-        p{
-            font: var(--text-preset7);
-            letter-spacing: var(--letter-spacing2);
-            color: var(--neutral_0);
-        }
+.rating-container{
+    margin: 0px 0px 0px var(--spacing-150);
+
+    p{
+        font: var(--text-preset7);
+        letter-spacing: var(--letter-spacing2);
+        color: var(--neutral_0);
     }
+}
+
+.stars-container{
+    img{
+        width: 11.4%;
+    }
+}
+
+.copy-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--spacing-175);
+
+    margin-top: var(--spacing-800);
+    border-top: 1px solid var(--neutral_700);
+    padding-top: var(--spacing-250);
+
+    p{
+        font: var(--text-preset7);
+        color: var(--neutral_0);
+    }
+}
