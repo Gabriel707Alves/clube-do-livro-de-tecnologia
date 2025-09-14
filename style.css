@@ -247,10 +247,23 @@ header {
     /* ----------------------
        Imagem da sessão
     ---------------------- */
-    .image {
-        width: 100%;
-        border-radius: var(--radius-12);
-        margin: var(--spacing-500) 0 0;
+    
+    .images-read-together{
+
+        .read-together-mobile{
+            display: block;
+            width: 100%;
+            margin: var(--spacing-500) 0 var(--spacing-800) 0;
+            border-radius: var(--radius-16);
+        }
+
+        .read-together-desktop{
+            display: none;
+        }
+
+        .read-together-tablet{
+            display: none;
+        }
     }
 }
 
@@ -671,6 +684,38 @@ footer {
         }
     }
 
+    /*====================== 
+        Read Together
+      ======================*/
+    
+    .read-together{
+        .text-container{
+            > h2{
+                font: var(--text-preset2);
+            }
 
+            .features-list{
+                gap: var(--spacing-250);
+            }
+        }
+
+        .images-read-together{
+
+            .read-together-mobile{
+                display: none;
+            }
+
+            .read-together-desktop{
+                display: none;
+            }
+
+            .read-together-tablet{
+                width: 100%;
+                margin: var(--spacing-500) 0 var(--spacing-1000) 0;
+                border-radius: var(--radius-20);
+                display: block;
+            }
+        }
+    }
 }
 
