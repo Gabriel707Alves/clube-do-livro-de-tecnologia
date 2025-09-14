@@ -98,6 +98,12 @@
     --radius-20: 20px;
     --radius-24: 24px;
     --radius-full: 999px;
+
+    /* Breakpoints */
+    --bp-tablet: 768px;    /* Tablet em pé (portrait) */
+    --bp-tablet-land: 1024px; /* Tablet deitado (landscape) */
+    --bp-desktop: 1440px;  /* Desktop padrão */
+    --bp-ultrawide: 1920px; /* Monitores grandes */
 }
 
 
@@ -182,14 +188,28 @@ header {
     /* ======================
        Imagens
     ====================== */
-    >img {
-        border-radius: var(--radius-4);
+
+    .glow{
+        display: none;
     }
 
-    .image {
-        width: 100%;
-        margin: var(--spacing-800) 0 var(--spacing-1000);
+
+    .images-hero{
+        .hero-mobile{
+            width: 100%;
+            border-radius: var(--radius-4);
+            margin: var(--spacing-800) 0 var(--spacing-1000) 0;
+        }
+
+        .hero-tablet{
+            display: none;
+        }
+
+        .hero-desktop{
+            display: none;
+        }
     }
+    
 }
 
 
@@ -594,7 +614,7 @@ footer {
         ====================== */
         .cta-container {
             a {
-                width: 50%;
+                width: 53%;
                 font: var(--text-preset6);
             }
 
@@ -629,19 +649,28 @@ footer {
             Imagens
         ====================== */
 
-        > img{
-            border-radius: var(--radius-16);
-            z-index: 1;
-        }
-
         .glow{
+            display: block;
             position: absolute;
             right: -180px;
             bottom: -180px;
-            width: 80%;
-            
+            width: 60%;
+        }
+
+        .images-hero{
+            .hero-tablet{
+                display: block;
+                width: 100%;
+                border-radius: var(--radius-12);
+                margin: var(--spacing-800) 0 var(--spacing-1000) 0;
+            }
+
+            .hero-mobile{
+                display: none;
+            }
         }
     }
 
 
 }
+
