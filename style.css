@@ -335,7 +335,7 @@ header {
    Sessão de Reading-Journey
 ====================== */
 .reading-journey {
-    padding: var(--spacing-800) var(--spacing-200);
+    padding: var(--spacing-800) var(--spacing-400);
     background-image: url(assets/images/pattern-light-bg.svg);
     background-color: var(--neutral_100);
     margin: 0 var(--spacing-200) var(--spacing-800);
@@ -780,8 +780,32 @@ footer {
                 z-index: 100;
             }
         }
+    }
 
+    /*====================== 
+        Reading Jouney
+      ======================*/
+    .reading-journey{
+        margin: 0 var(--spacing-400);
+
+        >h2{
+            font: var(--text-preset2);
+        }
+
+        .step-container{
+            gap: var(--spacing-250);
+            .step{
+                .step_number_container, .step-description{
+                    font: var(--text-preset6);
+                }
+            }
+        }
         
+        >img{
+            bottom: -380px;
+            right: -430px;
+            width: 120%;
+        }
     }
 }
 
