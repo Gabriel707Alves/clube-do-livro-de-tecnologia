@@ -312,10 +312,20 @@ header {
     /* ----------------------
        Imagem da sessão
     ---------------------- */
-    .image {
-        width: 100%;
-        border-radius: var(--radius-12);
-        margin: var(--spacing-500) 0 var(--spacing-800);
+    .images-book-club{
+        .not-avarege-mobile{
+            width: 100%;
+            margin: var(--spacing-500) 0 var(--spacing-1000) 0;
+            border-radius: var(--radius-20);
+        }
+
+        .not-avarege-desktop{
+            display: none;
+        }
+
+        .not-avarege-tablet{
+            display: none;
+        }
     }
 }
 
@@ -689,6 +699,8 @@ footer {
       ======================*/
     
     .read-together{
+        padding: 0 var(--spacing-400);
+
         .text-container{
             > h2{
                 font: var(--text-preset2);
@@ -716,6 +728,60 @@ footer {
                 display: block;
             }
         }
+    }
+
+    /*====================== 
+        Not avarege book club
+      ======================*/
+    .avarege-book-club{
+        padding: 0 var(--spacing-400);
+
+        .text-container{
+            > h2{
+                font: var(--text-preset2);
+
+                > span{
+                    position: relative;
+                    left: -183px;
+                    top: 11px;
+
+                    img{
+                        width: 170px;
+                    }
+                }
+            }
+        }
+
+        /* Imagens */
+        .images-book-club{
+            position: relative;
+            overflow: hidden;
+
+            .not-avarege-mobile{
+                display: none;
+            }
+
+            .not-avarege-tablet{
+                width: 100%;
+                margin: var(--spacing-500) 0 var(--spacing-1000) 0;
+                border-radius: var(--radius-20);
+                display: block;
+            }
+
+            .not-avarege-desktop{
+                display: none;
+            }
+
+            .tech-logos{
+                display: block;
+                position: absolute;
+                top: 530px;
+                left: 580px;
+                z-index: 100;
+            }
+        }
+
+        
     }
 }
 
