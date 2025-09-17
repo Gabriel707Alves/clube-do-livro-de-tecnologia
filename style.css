@@ -832,5 +832,22 @@ footer {
             }
         }
     }
+
+
+    /*====================== 
+        Testimonials
+      ======================*/
+    .testimonial{
+        padding: 0 var(--spacing-400);
+        .rating-container{
+            width: 47%;
+        }
+
+        .testimonial-content{
+            >h3{
+                font: var(--text-preset3);
+            }
+        }
+    }
 }
 
