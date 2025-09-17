@@ -787,6 +787,7 @@ footer {
       ======================*/
     .reading-journey{
         margin: 0 var(--spacing-400);
+        padding: var(--spacing-1000) var(--spacing-400);
 
         >h2{
             font: var(--text-preset2);
@@ -805,6 +806,30 @@ footer {
             bottom: -380px;
             right: -430px;
             width: 120%;
+        }
+    }
+
+
+    /*====================== 
+        Membership Options
+      ======================*/
+    .membership-option{
+        padding: 0 var(--spacing-400);
+        margin-top: var(--spacing-1000);
+
+        >h2{
+            font: var(--text-preset2);
+            margin-bottom: var(--spacing-500);
+        }
+
+        .container-cards-options{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--spacing-250);
+
+            .option-card{
+                margin: 0;
+            }
         }
     }
 }
